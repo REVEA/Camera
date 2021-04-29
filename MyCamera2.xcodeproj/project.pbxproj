@@ -11,6 +11,9 @@
 		653F61852632C6E6002E784A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F61842632C6E6002E784A /* ContentView.swift */; };
 		653F61872632C6E7002E784A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653F61862632C6E7002E784A /* Assets.xcassets */; };
 		653F618A2632C6E7002E784A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 653F61892632C6E7002E784A /* Preview Assets.xcassets */; };
+		653F61932632C7D6002E784A /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F61922632C7D6002E784A /* ImagePickerView.swift */; };
+		653F61972632E79C002E784A /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F61962632E79C002E784A /* ActivityView.swift */; };
+		653F619B2633F40D002E784A /* PHPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653F619A2633F40D002E784A /* PHPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		653F61862632C6E7002E784A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		653F61892632C6E7002E784A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		653F618B2632C6E7002E784A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		653F61922632C7D6002E784A /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		653F61962632E79C002E784A /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
+		653F619A2633F40D002E784A /* PHPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PHPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 			children = (
 				653F61822632C6E6002E784A /* MyCamera2App.swift */,
 				653F61842632C6E6002E784A /* ContentView.swift */,
+				653F619A2633F40D002E784A /* PHPickerView.swift */,
+				653F61922632C7D6002E784A /* ImagePickerView.swift */,
+				653F61962632E79C002E784A /* ActivityView.swift */,
 				653F61862632C6E7002E784A /* Assets.xcassets */,
 				653F618B2632C6E7002E784A /* Info.plist */,
 				653F61882632C6E7002E784A /* Preview Content */,
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				653F619B2633F40D002E784A /* PHPickerView.swift in Sources */,
 				653F61852632C6E6002E784A /* ContentView.swift in Sources */,
+				653F61972632E79C002E784A /* ActivityView.swift in Sources */,
+				653F61932632C7D6002E784A /* ImagePickerView.swift in Sources */,
 				653F61832632C6E6002E784A /* MyCamera2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +281,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCamera2/Preview Content\"";
+				DEVELOPMENT_TEAM = HVR463NAL6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MyCamera2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MyCamera2/Preview Content\"";
+				DEVELOPMENT_TEAM = HVR463NAL6;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = MyCamera2/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
